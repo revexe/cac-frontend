@@ -1,0 +1,1009 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+ }
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}	
+p{
+	margin:0;
+}
+ul{
+margin:0;
+padding:0;
+}
+/*----*/
+header{
+	padding:2em 0;
+	background:#eee;
+	position:relative;
+}
+.logo{
+	float:left;
+	position:absolute;
+	top:0px;
+	z-index:999;
+}
+.logo a{
+	display:inline-block;
+}
+.top-menu{
+	float:right;
+}
+.top-menu ul li{
+	display:inline-block;
+}
+.top-menu ul li a{
+	color:#333;
+	font-size:1.15em;
+	padding: 0.5em 1.5em;
+	display:block;
+	text-decoration:none;
+	margin:0 0.5em;
+	border-radius:7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+.top-menu ul li a.active{
+	color:#fff;
+	background:#E31937
+}
+.top-menu ul li a:hover{
+	color:#fff;
+	background:#E31937;
+	border-radius:7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+.imagen-inicio{
+	position:relative;
+}
+.imagen-inicio img{
+  height: auto;
+  max-width: 100%;
+}
+.caption{
+	position:absolute;
+	top:0;
+	width:60%;
+	left:19%;
+	text-align:center;
+	top:43%;
+}
+.caption h1{
+	color:#FFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+	font-size:3em;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+.caption p{
+	color:#FFF;
+	font-weight:400;
+	font-size:1.3em;
+	width:75%;
+	margin:0 auto;
+}
+.grid1{
+margin-bottom:2em;
+}
+.box1{
+background:url(../images/tesla-model-s.jpg) no-repeat 0px 0px;
+background-size:cover;
+min-height:300px;
+}
+.box2{
+background:url(../images/tesla-model-x.jpg) no-repeat 0px 0px;
+background-size:cover;
+min-height:300px;
+}
+.box3{
+background:url(../images/tesla-cybertruck-ruta.jpg) no-repeat 0px 0px;
+background-size:cover;
+min-height:300px;
+}
+.box4{
+background:url(../images/tesla-paneles-solares.jpg) no-repeat 0px 0px;
+background-size:cover;
+min-height:300px;
+}
+
+.box-info h3{
+color:#fff;
+font-size:3.5em;
+padding:4em 0 0 1em;
+font-weight:600;
+transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.box-info p{
+	color:#fff;
+	font-size:1.1em;
+	width:87%;
+	padding:0.5em 0 1em 3.5em;
+	font-weight:600;
+}
+.grid1 a,.grid2 a{
+text-decoration:none;
+}
+.contenido-central{
+	 margin:6% 0;
+}
+.texto-izquierda h3{
+	 color:#292929;
+	 font-size:2.3em;
+	 margin-bottom:5px;
+	 font-weight:600;
+}
+.texto-izquierda p{
+	 color:#929292;
+	 font-size:1.15em;
+	 margin-bottom:5px;
+	 font-weight:400;
+	 width:90%;
+	 line-height:1.5em;
+}
+.imagen-derecha img{
+	width:100%;
+}
+.planta-destacado{
+	 background:url(../images/planta-tesla.jpg) no-repeat 0px 0px;
+	 min-height:400px;
+	 text-align:center;
+	 background-size:100%;
+	 padding:10% 0;
+}
+.caracteristicas-grids{
+	background:#eee;
+	padding:5em 0;	
+}
+.ecosistema-grid1{
+	 background:url(../images/rayo.png) no-repeat 0px 0px;	 
+	 padding:0 0 0 60px;
+}
+.vehiculos-grid2{
+	 background:url(../images/power.png) no-repeat 0px 0px;	 
+	 padding:0 0 0 60px;
+}
+.tecno-grid3{
+	 background:url(../images/soporte.png) no-repeat 0px 0px;	 
+	 padding:0 0 0 60px;
+}
+.ecosistema-grid1 h3,.vehiculos-grid2 h3,.tecno-grid3 h3{
+	font-size:1.8em;
+	font-weight:600;
+	color:#333;
+	margin-bottom:7px;
+}
+.ecosistema-grid1 p,.vehiculos-grid2 p,.tecno-grid3 p{
+	 line-height:1.5em;
+	 font-size:1em;
+	 color:#929292;
+}
+.instalaciones{
+	 margin:6% 0;
+}
+.instalaciones-grids h3{
+	 color:#2c2c2c;
+	 font-size:2.2em;
+	 font-weight:600;	 
+	 text-decoration:underline;
+}
+ul.list1{
+	margin-top:1.5em;
+}
+ul.list1 li{
+	display:block;	
+}
+ul.list1 li a{ 
+	display:block;
+	text-decoration:none;
+	font-size:1.15em;
+	padding:6px 0;
+	color:#929292;
+	font-weight:400;
+}
+ul.list1 li a:hover{
+	 color:#E31937;
+}
+.instalaciones-grids {
+  padding-left: 3em;
+}
+.instalacion-grid {
+	 float:left;
+	 width:33%;
+	 padding:0 15px 0 0;
+	 margin-top:2em;
+}
+.instalacion-grid img{
+	width:100%;
+	margin-bottom:1.5em;
+}
+.instalacion-grid h4{	
+	margin-bottom:7px;
+	font-size:1.3em;
+	font-weight:600;	
+}
+.instalacion-grid h4 a{
+	text-decoration:none;
+	 color:#E31937;
+}
+.instalacion-grid h4 a:hover{
+	color:#2c2c2c;
+}
+.instalacion-grid p{
+	color:#929292;
+	line-height:1.5em;
+	font-size:1em;
+	font-weight:400;
+}
+/*---- footer -----*/
+footer {
+  padding: 2em 0;
+  background:#2c2c2c;
+}
+.ftr-logo{
+	width:10%;
+	display:inline-block;
+	margin-bottom:0.5em;
+}
+.ftr-logo img{
+	 background-size:100%;
+	 width:100%;
+}
+footer p{
+	color:#fff;
+	margin-bottom:0.5em;
+	font-size:1.1em;
+	float:left;
+	padding-top:5px;
+}
+footer p a{
+	 color:#fff;
+}
+.social{
+	float:right;
+}
+.social i {
+width: 27px;
+height: 27px;
+background: url('../images/social-icons.png') no-repeat 0px 0px;
+display: inline-block;
+margin:0 5px;
+}
+a i.facebook{
+background-position:-3px -2px;
+}
+a i.twitter{
+background-position: -43px -3px;
+}
+a i.dribble{
+background-position: -83px -3px;
+}
+a i.google{
+background-position:-126px -2px
+}
+a i.youtube{
+background-position:-167px -3px;
+}
+a i.facebook:hover{
+background-position:-3px -36px;
+}
+a i.twitter:hover{
+background-position: -43px -36px;
+}
+a i.dribble:hover{
+background-position: -83px -36px;
+}
+a i.google:hover{
+background-position:-126px -36px
+}
+a i.youtube:hover{
+background-position:-167px -36px;
+}
+/*--nosotros--*/
+.nosotros{
+	 padding:2em 0;
+}
+.nosotros-header h2{
+  color: #E31937;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+}
+.nosotros-header h3{
+  color: #2f3837;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+.nosotros-header p{
+    color: #929292;
+  font-size: 1.15em;
+  margin-bottom: 5px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.video-grid{
+	 margin:3em 0;
+}
+#reproductor{
+	 width:100%;
+	 height:320px;
+}
+.video-info h3 {
+  color:#E31937;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 0.7em;
+  font-family: 'Raleway', sans-serif;
+}
+.video-info h4 {
+  color: #2f3837;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 0.5em; 
+}
+.video-info p {
+  color: #929292;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+/*----*/
+.box1  {
+	padding-bottom: 1px;
+}
+/*--contacto--*/
+.contacto{
+	 padding:2em 0;
+}
+.contacto h2{
+	 color:#E31937;
+	 font-size:2.5em;
+	 font-weight:600;
+	 margin-bottom:0.5em;
+	 font-family: 'Raleway', sans-serif;
+	 text-align:center;
+}
+.contacto-left {
+  padding-left: 0;
+}
+.contacto form input[type="text"],.contacto-right textarea {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid #87655B;
+	font-size: 1.2em;
+	margin-bottom: 1.5em;
+	color: #87655B;
+	outline: none;
+	font-weight: 400;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+.contacto-right textarea{
+	resize:none;
+	height: 189px;
+}
+.contacto form input[type="text"]:hover,.contacto-right textarea:hover{
+	border:1px solid #EB5A41;
+}
+.contacto form input[type="submit"] {
+  background: #E31937;
+  padding: 8px 2em;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: 400;
+  border: 2px solid #E31937;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+  transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+.contacto form input[type="submit"]:hover {
+	text-decoration: none;
+	background:transparent;
+	border:2px solid #E31937;
+	color: #E31937;
+}
+.mapa{
+	 margin-bottom:2em;
+}
+.mapa iframe{
+	width:100%;
+	height:300px;
+}
+/*--responsive--*/
+@media(max-width:1024px){
+header{
+	padding:1.5em 0;
+}
+.top-menu ul li a {
+  font-size: 1.15em; 
+  }
+.caption {
+  width: 79%;
+  left: 11%;
+}
+.caption p {
+  font-size: 1.2em;
+}
+.box-info h3 {
+  font-size: 3em;
+  padding: 3.5em 0 0 0.5em;
+} 
+.box-info p {
+  padding: 0.5em 0 1em 1.5em;
+}
+.texto-izquierda h3 {
+  font-size: 2em;
+} 
+.texto-izquierda p {
+  font-size: 1.1em;
+}
+.imagen-inicio {
+  height: 566px;
+  background-size: cover;
+}
+.planta-destacado {  
+  min-height: 276px;
+}
+.ecosistema-grid1 h3, .vehiculos-grid2 h3, .tecno-grid3 h3 {
+  font-size: 1.5em;
+}
+.caracteristicas-grids {
+  padding: 4em 0;
+}
+.ecosistema-grid1 p, .vehiculos-grid2 p, .tecno-grid3 p {
+  overflow: hidden;
+  height: 64px;
+}
+.instalaciones {
+  margin: 4.5% 0;
+}
+.instalaciones-grids h3 {
+  font-size: 2em;
+}
+ul.list1 li a {
+  font-size: 1em;
+}
+.instalacion-grid h4 {
+  font-size: 1.2em;
+}
+.nosotros-header h3 {
+  font-size: 1.65em;
+}
+.nosotros-header p {
+  font-size: 1.1em;
+}
+.video-info h3 {
+  font-size: 1.545em;
+}
+.box p {
+  color: #9A9598;
+  line-height: 1.5em;
+}
+.nosotros-header h2,.contacto h2 {
+  font-size: 2em;
+}
+.mapa {
+  margin: 2em 0;
+}
+}
+@media(max-width:768px){
+.logo{
+	 width:18%;
+}
+.logo img{
+	width:100%;
+	background-size:100%;
+}
+header {
+  padding: 1em 0;
+}
+.imagen-inicio {
+  height: 432px;
+  background-size: cover;
+}
+.top-menu ul li a {
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+.caption {
+  width: 100%;
+  left: 0%;
+}
+.caption h1 {
+  font-size: 2.5em;
+}
+.caption p {
+  font-size: 1em;
+    width: 75%;
+}
+.box-info p {
+  padding: 0.5em 0 1em 1.1em;
+  font-size: 0.95em;
+  width: 87%;
+}
+.grid1,.grid2{
+	width:50%;
+	float:left;
+}
+.box-info h3 {
+  font-size:2.3em;
+}
+.box1,.box2,.box3,.box4 {
+  min-height: 226px;
+}
+.contenido-central {
+  margin: 4% 0;
+}
+.texto-izquierda h3 {
+  font-size: 1.8em;
+}
+.texto-izquierda p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+.planta-destacado {
+  min-height: 200px;
+}
+.caracteristicas-grids {
+  padding: 3em 0 2em 0;
+}
+.instalaciones-grids {
+  padding-left: 0em;
+  margin-top: 2em;
+}
+.instalaciones-grids h3 {
+  font-size: 1.7em;
+}
+ul.list1 {
+  margin-top: 0.5em;
+}
+.instalacion-grid {
+  margin-top: 1em;
+}
+.instalacion-grid img {
+  margin-bottom: 0.5em;
+}
+.nosotros-header h3 {
+  font-size: 1.5em;
+}
+.nosotros-header p {
+  font-size: 1em;
+}
+.nosotros {
+  padding: 2em 0 1em 0;
+}
+.video-grid {
+  margin: 2em 0 0 0;
+}
+.video,.video-info {
+  padding: 0;
+}
+.video-info{
+	margin-top:1em;
+}
+.video-info h3 {
+  font-size: 1.4em;
+    margin-bottom: 0.4em;
+}
+.contacto-right {
+	padding:0;
+}
+}
+@media(max-width:640px){
+.top-menu ul li a {
+  font-size: 1em;
+  padding: 0.35em 0.5em;
+}
+.caption h1 {
+  font-size: 2.1em;
+}
+.caption p {
+  font-size: 0.9em;
+  width: 80%;
+}
+.imagen-inicio {
+  height: 338px;
+  background-size: cover;
+}
+.box-info h3 {
+  font-size: 1.8em;
+}
+.box-info p {
+  font-size: 0.85em;
+  width: 89%;
+  overflow:hidden;
+  height:40px;
+  padding: 0.2em 0 1em 1.1em;
+}
+.box1, .box2, .box3, .box4 {
+  min-height: 170px;
+}
+.contenido-central {
+  margin: 3% 0;
+}
+.texto-izquierda p {
+  overflow: hidden;
+  height: 85px;
+  width: 100%;
+}
+.planta-destacado {
+  min-height: 155px;
+  padding: 8% 0;
+}
+.vehiculos-grid2{
+	margin:1.3em 0;
+}
+.instalaciones-grids h3 {
+  font-size: 1.5em;
+}
+.instalacion-grid p {
+  font-size: 0.95em;
+}
+footer p {
+  font-size: 0.9em;
+}
+.nosotros-header p {
+  overflow: hidden;
+  height: 84px;
+  margin-bottom: 0;
+}
+.nosotros-header h2, .contacto h2 {
+  font-size: 1.8em;
+}
+.nosotros-header h2 {
+  margin-bottom: 0.7em;
+}
+.nosotros-header h3 {
+  font-size: 1.25em;
+}
+.video-info h3 {
+  font-size: 1.3em;
+}
+.video-info h4 {
+  font-size: 1.1em;
+}
+.video-info p {
+  font-size: 0.95em;
+}
+.nosotros {
+  padding: 2em 0 0em 0;
+}
+.box p {
+  font-size: 0.9em;
+  overflow: hidden;
+  height: 54px;
+}
+.contacto form input[type="text"], .contacto-right textarea {
+  padding: 8px 8px;
+  font-size: 1.1em;
+}
+.contacto form input[type="submit"] {
+  padding: 6px 2em;
+  font-size: 1.1em;
+}
+.grid1, .grid2 {
+  padding:0;
+}
+.grid1:nth-child(1){
+  margin-right:11px;
+}
+.grid2:nth-child(4) {
+  margin-right: 11px;
+}
+.grid1,.grid2 {
+  width: 49%;
+}
+.grid1 {
+  margin-bottom: 1em;
+}
+.texto-izquierda,.imagen-derecha  {
+	padding:0;
+}
+}
+@media(max-width:480px){
+header {
+  padding: 0em 0 0 0;
+}
+span.menu:before {
+	content: url(../images/nav-icon.png);
+	cursor: pointer;		
+}
+.top-menu {
+	width: 11%;
+	float: right;
+	margin: 0%;
+}
+.top-menu  ul{
+	display:none;
+}
+.top-menu  ul li {
+	font-size: 12px;
+	display:inline-block;
+	width: 100%;
+}
+.top-menu ul li a {
+	padding:6px;
+	font-size: 14px;
+	width: 100%;
+	margin:0;
+	border-radius:0;
+}
+ span.menu{
+	display:block;
+	float:right;
+	margin: 18px 8px 0px 0;
+}
+.top-menu  ul{
+	margin: 0;
+	z-index: 999;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 100%;
+	left: 0%;	
+	background:#eee;
+}
+.top-menu  ul li a:hover,.top-menu ul li a.active:hover{
+	color:#E31937;
+	border-radius:0;
+	background:#eee;
+}
+.top-menu ul li a.active {
+ color:#333;
+ background:#eee;
+}
+.logo {
+  width: 22%;
+}
+.caption h1 {
+  font-size: 1.8em;
+}
+.caption p {
+  font-size: 0.85em;
+  width: 93%;
+}
+.imagen-inicio {
+  height: 275px;
+  background-size: cover;
+}
+.grid1, .grid2 {
+  width: 48%;
+}
+.box-info h3 {
+  font-size: 1.5em;
+}
+.box-info p {
+  font-size: 0.8em;
+  height: 33px;
+}
+.box1, .box2, .box3, .box4 {
+  min-height: 140px;
+}
+.texto-izquierda h3 {
+  font-size: 1.3em;
+}
+.texto-izquierda p {
+  height: 71px;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+.planta-destacado {
+  min-height: 130px;
+}
+.caracteristicas-grids {
+  padding: 2em 0 2em 0;
+}
+.ecosistema-grid1 h3, .vehiculos-grid2 h3, .tecno-grid3 h3 {
+  font-size: 1.4em;
+}
+.ecosistema-grid1 p, .vehiculos-grid2 p, .tecno-grid3 p {
+  font-size: 0.9em;
+    height: 57px;
+}
+.vehiculos-grid2 {
+  margin: 1em 0;
+}
+ul.list1 li:nth-child(1),ul.list1 li:nth-child(2),ul.list1 li:nth-child(3){
+	display:none;
+}
+.ul.list1 li a {
+  font-size: 0.95em;
+  padding: 4px 0;
+}
+.instalaciones-grids {
+  margin-top: 1em;
+}
+.instalacion-grid:nth-child(2){
+	display:none;
+}
+.instalacion-grid {
+  width: 50%;
+}
+footer p {
+  float:none;
+  text-align: center;
+}
+.social {
+  float: none;
+  text-align: center;
+  margin-top:0.5em;
+}
+footer {
+  padding: 1.5em 0;
+}
+.nosotros-header h2, .contacto h2 {
+  font-size: 1.6em;
+}
+.nosotros-header h2, .contacto h2 {
+  margin-bottom: 0.5em;
+}
+.nosotros {
+  padding: 1em 0 0em 0;
+}
+.nosotros-header h3 {
+  font-size: 1.2em;
+}
+.nosotros-header p {
+  font-size: 0.9em;
+  height: 55px;
+}
+.video-grid {
+  margin: 1em 0 0 0;
+}
+.video iframe {
+  height: 260px;
+}
+.video-info p {
+  overflow: hidden;
+  height: 56px;
+}
+.mapa iframe {
+  height: 216px;
+}
+.mapa {
+  margin: 1em 0;
+}
+.contacto form input[type="text"], .contacto-right textarea {
+  padding: 8px;
+  font-size: 1em;
+}
+.contacto-right textarea {
+  height: 120px;
+    margin-bottom: 1em;
+}
+.contacto form input[type="submit"] {
+  padding: 5px 1.5em;
+  font-size: 1em;
+}
+}
+@media (max-width: 320px){
+.logo {
+  width: 34%;
+}
+span.menu {
+  margin: 13px 8px 0px 0;
+}
+.caption h1 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+.top-menu ul li a {
+  padding: 5px;
+  font-size: 13px;
+}
+.caption p {
+  overflow: hidden;
+  height: 19px;
+}
+.imagen-inicio {
+  height: 198px;
+  background-size: cover;
+}
+.caption {
+  top: 38%;
+}
+.box-info h3 {
+  font-size: 1.3em;
+}
+.box-info p{
+	display:none;
+}
+.box1, .box2, .box3, .box4 {
+  min-height: 95px;
+}
+.grid1, .grid2 {
+  width: 47%;
+}
+.texto-izquierda h3 {
+  font-size: 1.2em;
+}
+.planta-destacado {
+  min-height: 76px;
+}
+.ecosistema-grid1 h3, .vehiculos-grid2 h3, .tecno-grid3 h3 {
+  font-size: 1.3em;
+}
+ul.list1 li a {
+  font-size: 0.95em;
+  padding: 4px 0;
+}
+.instalaciones-grids h3 {
+  font-size: 1.3em;
+}
+.instalacion-grid {
+  width: 100%;
+  padding-right:0;
+}
+.instalaciones-grids{
+	padding:0;
+}
+.nosotros-header h2, .contacto h2 {
+  font-size: 1.4em;
+}
+.nosotros-header h3 {
+  font-size: 1em;
+}
+.video iframe {
+  height: 172px;
+}
+.video-info h3 {
+  font-size: 1.1em;
+  line-height:1.4em;
+}
+.video-info p {
+  margin-bottom: 1em;
+}
+.video-info {
+  margin: 1em 0 2em 0;
+}
+.contacto-left{
+	padding:0;
+}
+.contacto form input[type="text"], .contacto-right textarea {
+  padding: 6px;
+  font-size: 0.9em;
+}
+.contacto-right textarea {
+  height: 100px;
+}
+.mapa iframe {
+  height: 148px;
+}
+}
